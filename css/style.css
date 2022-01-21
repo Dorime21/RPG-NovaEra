@@ -12,6 +12,36 @@ body{
     background: #043a45;
 }
 
+.textBoxTitle{
+    /* background: coral; */
+    position: absolute;
+    top: 30px;
+    bottom: auto;
+    left: 500px;
+    right: 500px;
+    color: #fff;
+    font-size: 45px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+
+    margin: auto;
+}
+
+.textBox{
+    /* background: coral; */
+    position: absolute;
+    top: 125px;
+    bottom: auto;
+    left: 500px;
+    right: 500px;
+    color: #fff;
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+
+    margin: auto;
+}
+
 .logo{
     position: relative;
     display: block;
