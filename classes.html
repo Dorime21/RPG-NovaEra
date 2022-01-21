@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="https://kit.fontawesome.com/4d1a1b2ac1.js" crossorigin="anonymous"></script>
+        <title>RPG - Nova Era</title>
+    </head>
+
+    <body>
+
+        <div class="textBoxTitle">Introdução</div>
+        <div class="textBox">
+            Este é um sistema teste que ainda vai passar por muitas mudanças e
+            adaptações para que consiga cumprir o papel da melhor maneira
+            possível, um RPG ambientado no mundo de Nova era,um lugar que foi gerado
+            após uma calamidade que eliminou muitas coisas da existência e como
+            consequência aqueles que sobreviveram a ela lutam por sua sobrevivência
+            sem perder as esperanças.
+            Um mundo onde o perigo está presente todos os dias,
+            um mundo não explorado,cheio de mistérios,
+            aventuras intrigas e muitas emoções.
+        </div>
+
+        <div class="navigation">
+            <header class="logo"><i class="fab fa-phoenix-framework"></i></header>
+            <ul>
+                <li>
+                    <a href="./index.html">
+                        <span class="icon"><i class="fas fa-book-open"></i></span>
+                        <span class="title">Introdução</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./raças.html">
+                        <span class="icon"><i class="fas fa-paw"></i></i></span>
+                        <span class="title">Raças</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./classes.html">
+                        <span class="icon"><i class="fas fa-khanda"></i></span>
+                        <span class="title">Classes</span>
+                    </a>
+                </li>                
+                <li>
+                    <a href="./itens.html">
+                        <span class="icon"><i class="fas fa-balance-scale-right"></i></span>
+                        <span class="title">Itens</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./bestiario.html">
+                        <span class="icon"><i class="fab fa-gitkraken"></i></span>
+                        <span class="title">Bestiário</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="toggle" onclick="toggleMenu()"></div>
+        <script type="text/javascript">
+            function toggleMenu(){
+                let navigation = document.querySelector('.navigation');
+                let toggle = document.querySelector('.toggle');
+                navigation.classList.toggle('active');
+                toggle.classList.toggle('active');
+            }
+        </script>
+    </body>
+</html>
